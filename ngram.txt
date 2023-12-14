@@ -1,0 +1,5 @@
+from nltk import bigrams, word_tokenize
+sentence = "Natural language processing is an fascinating machine-learning invention."
+words = word_tokenize(sentence)
+bigrams_list = list(bigrams(words))
+print(bigrams_list)
